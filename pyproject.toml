@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "blog-api"
+version = "1.0.0"
+description = "Our blog-api written in Flask"
+authors = ["Nikita <nik.nightness@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.0.2"
+flask-sqlalchemy = "^3.1.1"
+alembic = "^1.13.1"
+environs = "^10.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
