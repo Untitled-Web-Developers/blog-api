@@ -6,7 +6,7 @@ from flask import current_app
 from alembic import context
 
 # TODO: Импортировать сюда все модели, чтобы работал --autogenerate ревизий
-from app.db.models import *
+from app.db import *
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.

@@ -1,6 +1,6 @@
-from flask_sqlalchemy import SQLAlchemy
+from .base import BaseModel
+from .models import Article, Comment
 
-from .base_model import BaseModel
-
-db = SQLAlchemy(model_class=BaseModel)
-
+__all__ = [
+    "Article", "Comment",
+]
