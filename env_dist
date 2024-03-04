@@ -1,4 +1,0 @@
-HOST=0.0.0.0
-PORT=80
-DEBUG=1
-SQLA_CONNECTION_STRING=mysql+mysqldb://user:pass@host:port/dbname
