@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "blog-api-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["Nikita <nik.nightness@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+uvicorn = { extras = ["standard"], version = "^0.27.1" }
+fastapi = "^0.110.0"
+alembic = "^1.13.1"
+environs = "^10.3.0"
+pydantic = "^2.6.3"
+sqlalchemy = "^2.0.27"
+aiomysql = "^0.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
